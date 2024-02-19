@@ -17,6 +17,13 @@
             background-color: #75bae7; /* blue header */
             padding: 20px;
             text-align: center;
+            position: relative;
+        }
+
+        #logo {
+            position: absolute;
+            top: 20px;
+            left: 20px;
         }
 
         h1 {
@@ -57,6 +64,7 @@
 </head>
 <body>
     <header>
+        <img id="logo" src="images/logo.png" alt="Logo">
         <h1>Yannick Mul</h1>
         <p>Interaction Designer</p>
     </header>
@@ -67,6 +75,7 @@
     </nav>
     <section id="about">
         <h2>About Me</h2>
+        <img src="images/background.jpg" alt="Your Photo" style="float: left; margin-right: 20px; max-width: 200px;">
         <p>I am an Interaction Designer with a background in Audiovisual and Animation. I studied at HKU, focusing on VR/AR techniques, and I'm the creator of PeakUnbound.</p>
     </section>
     <section id="portfolio">
