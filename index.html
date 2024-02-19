@@ -1,28 +1,86 @@
-<!doctype html>
-<htmnl lang="en">
-<html>
-  <head>
-    <meta charset="UFT-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, inital-sacle=1.0">
-    <title>Yannick Mul - Portfolio Site</title>
-    <link rel="stylesheet" href="style.css">
-  </head>
-  <body>
-      <div id="header">
-          <div id="container">
-              <nav>
-                  <img src="images/logo.png" class="logo" />
-                  <ul>
-                      <li><a href="#">Home</a></li>
-                      <li><a href="#">About</a></li>
-                      <li><a href="#">Portfolio</a></li>
-                      <li><a href="#">Showreel</a></li>
-                      <li><a href="#">Contact</a></li>
-                  </ul>
-              </nav>
-          </div>
-      </div>
-    <p>This is an example paragraph. Anything in the <strong>body</strong> tag will appear on the page, just like this <strong>p</strong> tag and its contents.</p>
-  </body>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yannick Mul - Interaction Designer</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #ffffff; /* white background */
+            color: #3f3f3f; /* black text */
+        }
+
+        header {
+            background-color: #75bae7; /* blue header */
+            padding: 20px;
+            text-align: center;
+        }
+
+        h1 {
+            margin-top: 0;
+            font-size: 36px;
+        }
+
+        nav {
+            background-color: #1895bf; /* darker blue navigation */
+            padding: 10px;
+            text-align: center;
+        }
+
+            nav a {
+                color: #ffffff; /* white navigation links */
+                text-decoration: none;
+                margin: 0 10px;
+                font-size: 18px;
+            }
+
+                nav a:hover {
+                    text-decoration: underline;
+                }
+
+        section {
+            padding: 20px;
+        }
+
+        footer {
+            background-color: #75bae7; /* blue footer */
+            padding: 10px;
+            text-align: center;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Yannick Mul</h1>
+        <p>Interaction Designer</p>
+    </header>
+    <nav>
+        <a href="#about">About</a>
+        <a href="#portfolio">Portfolio</a>
+        <a href="#contact">Contact</a>
+    </nav>
+    <section id="about">
+        <h2>About Me</h2>
+        <p>I am an Interaction Designer with a background in Audiovisual and Animation. I studied at HKU, focusing on VR/AR techniques, and I'm the creator of PeakUnbound.</p>
+    </section>
+    <section id="portfolio">
+        <h2>Portfolio</h2>
+        <!-- Add your portfolio items here -->
+        <p>Coming soon...</p>
+    </section>
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <p>Email: your@email.com</p>
+        <p>Phone: 123-456-7890</p>
+    </section>
+    <footer>
+        <p>&copy; 2024 Yannick Mul | All rights reserved</p>
+    </footer>
+</body>
 </html>
