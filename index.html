@@ -3,70 +3,92 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <title>Home Page</title>
+    <title>Yannick Mul - Interaction Designer</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #ffffff; /* white background */
+            color: #3f3f3f; /* black text */
+        }
+
+        header {
+            background-color: #ffffff; /* white background */
+            padding: 20px;
+            text-align: center;
+            position: relative;
+        }
+
+        #logo {
+            position: absolute;
+            top: 20px;
+            left: 20px;
+        }
+
+        h1 {
+            margin-top: 0;
+            font-size: 36px;
+        }
+
+        nav {
+            background-color: #1895bf; /* darker blue navigation */
+            padding: 10px;
+            text-align: center;
+        }
+
+            nav a {
+                color: #ffffff; /* white navigation links */
+                text-decoration: none;
+                margin: 0 10px;
+                font-size: 18px;
+            }
+
+                nav a:hover {
+                    text-decoration: underline;
+                }
+
+        section {
+            padding: 20px;
+        }
+
+        footer {
+            background-color: #75bae7; /* blue footer */
+            padding: 10px;
+            text-align: center;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
 </head>
 <body>
-    <div class="banner">
-        <img src="images/logo.png" class="logo" alt="Logo">
-
-        <div class="navigation">
-            <ul>
-                <li><a class="button" href="#">Projects</a></li>
-                <li><a class="button" href="#">Showreel</a></li>             
-                <li><a class="button" href="#">About me</a></li>              
-                <li><a class="button" href="#">Contact</a></li>      
-            </ul>  
-
-            <div class="socials">                
-                <a href="https://www.linkedin.com/in/yannick-mul/" target="_blank"><img src="images/linkedin.svg" class="icon" alt="icon"></a>
-                <a href="https://www.youtube.com/@yannickmul" target="_blank"><img src="images/youtube.svg" class="icon" alt="icon"></a>
-                <a href="https://twitter.com/Yannick_Mul" target="_blank"><img src="images/twitter.svg" class="icon" alt="icon"></a>
-            </div>
-        </div>
-
-    </div>
-    <div class="content">
-        <div class="thumbnail"> <a href="#"><img src="images/bkg_06.jpg" alt="" width="2000" class="cards"/></a>
-            <h4>TITLE</h4>
-            <p class="tag">HTML, CSS, JS, WordPress</p>
-            <p class="text_column">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-          </div>
-          <div class="thumbnail"> <a href="#"><img src="images/bkg_06.jpg" alt="" width="2000" class="cards"/></a>
-            <h4>TITLE</h4>
-            <p class="tag">HTML, CSS, JS, WordPress</p>
-            <p class="text_column">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-          </div>
-          <div class="thumbnail"> <a href="#"><img src="images/bkg_06.jpg" alt="" width="2000" class="cards"/></a>
-            <h4>TITLE</h4>
-            <p class="tag">HTML, CSS, JS, WordPress</p>
-            <p class="text_column">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-          </div>
-          <div class="thumbnail"> <a href="#"><img src="images/bkg_06.jpg" alt="" width="2000" class="cards"/></a>
-            <h4>TITLE</h4>
-            <p class="tag">HTML, CSS, JS, WordPress</p>
-            <p class="text_column">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-          </div>
-          <div class="thumbnail"> <a href="#"><img src="images/bkg_06.jpg" alt="" width="2000" class="cards"/></a>
-            <h4>TITLE</h4>
-            <p class="tag">HTML, CSS, JS, WordPress</p>
-            <p class="text_column">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-          </div>
-          <div class="thumbnail"> <a href="#"><img src="images/bkg_06.jpg" alt="" width="2000" class="cards"/></a>
-            <h4>TITLE</h4>
-            <p class="tag">HTML, CSS, JS, WordPress</p>
-            <p class="text_column">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-          </div>
-          <div class="thumbnail"> <a href="#"><img src="images/bkg_06.jpg" alt="" width="2000" class="cards"/></a>
-            <h4>TITLE</h4>
-            <p class="tag">HTML, CSS, JS, WordPress</p>
-            <p class="text_column">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-          </div>
-          <div class="thumbnail"> <a href="#"><img src="images/bkg_06.jpg" alt="" width="2000" class="cards"/></a>
-            <h4>TITLE</h4>
-            <p class="tag">HTML, CSS, JS, WordPress</p>
-            <p class="text_column">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-          </div>
-    </div>
+    <header>
+        <img id="logo" src="images/logo.png" alt="Logo" style="float: left; margin-right: 20px; max-width: 200px;">
+        <h1>Yannick Mul</h1>
+        <p>Interaction Designer</p>
+    </header>
+    <nav>
+        <a href="#about">About</a>
+        <a href="#portfolio">Portfolio</a>
+        <a href="#contact">Contact</a>
+    </nav>
+    <section id="about">
+        <h2>About Me</h2>
+        <img src="images/background.jpg" alt="Your Photo" style="float: left; margin-right: 20px; max-width: 200px;">
+        <p>I am an Interaction Designer with a background in Audiovisual and Animation. I studied at HKU, focusing on VR/AR techniques, and I'm the creator of PeakUnbound.</p>
+    </section>
+    <section id="portfolio">
+        <h2>Portfolio</h2>
+        <!-- Add your portfolio items here -->
+        <p>Coming soon...</p>
+    </section>
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <p>Email: your@email.com</p>
+    </section>
+    <footer>
+        <p>&copy; 2024 Yannick Mul | All rights reserved</p>
+    </footer>
 </body>
 </html>
