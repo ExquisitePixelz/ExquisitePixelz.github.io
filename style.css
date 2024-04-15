@@ -1,21 +1,127 @@
-﻿*{
+body {
     margin: 0;
-    padding: 0;
-    font-family: Calibri, sans-serif;
-    box-sizing: border-box;
+    font-family: Arial, sans-serif;
 }
 
-body{
-    background: #080808;
-    color: #fff;
-}
-#header{
+.banner {
+    background-color: #fff;
+    position: fixed;
+    top: 0;
+    left: 0;
     width: 100%;
-    height: 100vh;
-    background-image: url(images/background.jpg);
-    background-size: cover;
-    background-position: center;
+    height: auto;
+    padding: 10px 20px;
+    display: flex;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
-.container{
-    padding: 10px 10%;
+
+.logo {
+    width: auto;
+    max-width: 300px;
+    height: auto;
+    max-height: 300px;
+}
+
+.navigation {
+    position: absolute;
+    top: 0px; /* Position it vertically centered */
+    right: 100px; 
+    font-size: 30px;
+    list-style-type: none;
+    margin: 0%; /* Remove default margin */
+    padding: 0%; /* Remove default padding */
+}
+
+.navigation ul {
+    list-style-type: "";
+    margin: 1%; /* Remove default margin */
+    padding: 0%; /* Remove default padding */
+}
+
+.navigation li {
+    text-align: right;
+    margin: 0%; /* Remove default margin */
+    padding: 0%; /* Remove default padding */
+}
+
+.button {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    font-size: 16px;
+    margin-bottom: 10px;
+    transition: text-decoration 0.3s ease; 
+}
+
+.button:hover {
+    text-decoration: underline;
+    right: 100px; 
+}
+
+.icon{
+    fill: rgb(255, 0, 0); /* Change the fill color */
+    width: 20px;
+    height: 20px;
+}
+
+.icon:hover {
+    fill: rgb(12, 137, 168); /* Change the fill color */
+    width: 22px;
+    height: 22px;
+}
+
+.socials a {
+    text-align: right;
+    margin-top: 10px;
+    margin-left: 10px;
+    text-decoration: none;
+}
+
+.gallery {
+	clear: both;
+	display: inline-block;
+	width: 100%;
+	background-color: #FFFFFF;
+	/* [disabled]min-width: 400px;
+*/
+	padding-bottom: 35px;
+	padding-top: 0px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+
+.gallery .thumbnail h4 {
+	margin-top: 5px;
+	margin-bottom: 5px;
+	color: #52BAD5;
+	text-align: left;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+.gallery .thumbnail p {
+	margin: 0;
+	color: #B3B3B3;
+	text-align: left;
+	padding-left: 20px;
+}
+
+.thumbnail {
+	width: 23%;
+	text-align: center;
+	float: left;
+	margin-top: 200px;
+	background-color: #F8F8F8;
+	padding-bottom: 20px;
+	margin-left: 1%;
+	margin-right: 1%;
+	border-radius: 3px;
+	padding-top: 20px;
+	border-bottom: 4px solid #6DC7D0;
+}
+
+.cards {
+	width: 100%;
+	height: auto;
+	max-width: 400px;
+	max-height: 200px;
+	opacity: 0.8;
 }
