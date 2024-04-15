@@ -1,6 +1,10 @@
 body {
-    margin: 0;
-    font-family: Arial, sans-serif;
+    font-family: "Arial Rounded MT Bold", "Helvetica Rounded", Arial, sans-serif; 
+    font-size: 24px; 
+    font-style: normal; 
+    font-variant: normal; 
+    font-weight: 700; 
+    line-height: 26.4px;
 }
 
 .banner {
@@ -81,8 +85,6 @@ body {
 	display: inline-block;
 	width: 100%;
 	background-color: #FFFFFF;
-	/* [disabled]min-width: 400px;
-*/
 	padding-bottom: 35px;
 	padding-top: 0px;
 	margin-top: 0px;
@@ -125,3 +127,9 @@ body {
 	max-height: 200px;
 	opacity: 0.8;
 }
+
+h1 { font-family: "Arial Rounded MT Bold", "Helvetica Rounded", Arial, sans-serif; font-size: 24px; font-style: normal; font-variant: normal; font-weight: 700; line-height: 26.4px; } 
+h3 { font-family: "Arial Rounded MT Bold", "Helvetica Rounded", Arial, sans-serif; font-size: 14px; font-style: normal; font-variant: normal; font-weight: 700; line-height: 15.4px; } 
+p { font-family: "Arial Rounded MT Bold", "Helvetica Rounded", Arial, sans-serif; font-size: 14px; font-style: normal; font-variant: normal; font-weight: 400; line-height: 20px; } 
+blockquote { font-family: "Arial Rounded MT Bold", "Helvetica Rounded", Arial, sans-serif; font-size: 21px; font-style: normal; font-variant: normal; font-weight: 400; line-height: 30px; } 
+pre { font-family: "Arial Rounded MT Bold", "Helvetica Rounded", Arial, sans-serif; font-size: 13px; font-style: normal; font-variant: normal; font-weight: 400; line-height: 18.5714px; }
